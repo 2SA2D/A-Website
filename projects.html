@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects </title>
+    <link href="projects.css" rel="stylesheet">
+    <script>
+        function changeb(){
+            const navb = document.getElementById('nav-b');
+    
+            navb.addEventListener('mouseover', function handleMouseOver() {
+            navb.style.color = 'red';
+            });
+            navb.addEventListener('mouseout', function handleMouseOut() {
+            navb.style.color = 'black';
+
+            
+});
+        }
+
+        function changea(){
+            const nava = document.getElementById('nav-a');
+  
+            nava.addEventListener('mouseover', function handleMouseOver() {
+            nava.style.color = 'red';
+            });
+            nava.addEventListener('mouseout', function handleMouseOut() {
+            nava.style.color = 'black';});
+        }
+
+        function changec(){
+            const navc = document.getElementById('nav-c');
+  
+            navc.addEventListener('mouseover', function handleMouseOver() {
+            navc.style.color = 'red';
+            });
+            navc.addEventListener('mouseout', function handleMouseOut() {
+            navc.style.color = 'black';});
+        }
+        function initText() {
+            var today = new Date();
+            var numberOfDay = today.getDay();
+            var day = today.getDate();
+            var month = today.getMonth();
+            var year = today.getFullYear();
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var second = today.getSeconds();
+            if (numberOfDay == 0){this.nameOfDay="Sunday"};
+            if (numberOfDay == 1){this.nameOfDay="Monday"};
+            if (numberOfDay == 2){this.nameOfDay="Tuesday"};
+            if (numberOfDay == 3){this.nameOfDay="Wednesday"};
+            if (numberOfDay == 4){this.nameOfDay="Thursday"};
+            if (numberOfDay == 5){this.nameOfDay="Friday"};
+            if (numberOfDay == 6){this.nameOfDay="Saturday"};
+            var current_date = ("Today is "+this.nameOfDay+" "+ day+"/"+(month+1)+"/"+year);
+            var current_time = (" "+"and the time is "+hour+":"+minute+":"+second);
+            document.getElementById('theText').innerHTML = "Welcome to my website!"+current_date+current_time;}
+
+        function start(){
+         initText();
+
+      }
+    </script>
+</head>
+<body onload="start()">
+    <div class="grid a">
+        <header class="nav">
+            <a onmouseover="changea()" id="nav-a"  style="text-decoration: none;border: 10px solid rgb(42, 160, 186);border-radius: 10px; background-color: rgb(42, 160, 186); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" href="index.html">Asaad Al Saadi</a>
+            <a onmouseover="changeb()" id="nav-b" style="text-decoration: none;border: 10px solid rgb(42, 160, 186); border-radius: 50px; background-color: rgb(42, 160, 186);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: black;" href="index.html">Home</a>
+            <a onmouseover="changec()" id="nav-c" style="text-decoration: none;border: 10px solid rgb(42, 160, 186); border-radius: 50px; background-color: rgb(42, 160, 186);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: black;" href="projects.html"> My Project </a>
+            
+        </header>
+        <marquee direction="right" id='theText' class="leftToright" style="margin:20px;background-color: cornsilk;">
+            
+        </marquee>
+    </div>
+    
+
+    <section class="gridb">
+        
+        <p class="g"> Computer Science </p>
+
+    </section>
+
+    <section class="gridc" >
+        <h1 style="color: aliceblue; font-size: 50px; font-style: normal;text-align: center;" > 1- Final Year Project </h1>
+                <h3 style="color: rgb(19, 245, 15);text-align: left;">Development of Personalized Mobile Application for Healthy 
+                    Lifestyle Choices, an application called (Siyaj) that developed and 
+                    designed for android-iOS based smartphones. This application 
+                    permits individuals to put social pressure on one another to live 
+                    better lives by participating in outdoor physical activities and 
+                    events. Our main goal is to encourage the community and raise 
+                    awareness to adobe a healthier and more active lifestyle and 
+                    hence a community without diseases.
+                </h3>
+                <img src="s.png"> <img src="s2.png">
+    </section>
+
+    <section class="gridc" >
+        <p style="color: aliceblue; font-size: 50px; font-style: normal;text-align: center;">2- Irtiqa</p>
+        <img src="IRTIQA.png">
+
+                <h3 style="color: rgb(19, 245, 15);">In our current life, the internet has become the fastest way to accomplish business projects that have turned the world into a small village, so websites of various types have spread fast around the world.
+                     we have different types of websites ranging from education, culture, commercial and more.
+                     As a result of having this huge library of websites, any person is able to find what they need easily while requiring them to have a device that is able to connect to the internet.
+                      On our website, we would like to provide the guidance to anyone who wants service their device like installing Operator System, authorized applications and anti-virus, we also provide tutorials to setup home network, connecting the satellite dish and many tips on how to optimize your computer system to make the most out it.
+                       One more thing is providing live assistance by posting their problems and our staff will reach them out.
+                       Moreover, some services will require a method of payment depending on the type of service they want.</h3>
+                       <a type="button" name="Irtiqa" style="text-decoration: none;color: bisque;background-color: blueviolet;border: 10px blueviolet double;border-radius: 10px;"href="https://2sa2d.github.io/Irtiqa/index.html"> Visit the Irtiqa Website</a>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,981 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        
+    }
+    
+    .nav {
+        
+        margin: 0px;
+        background-color: rgb(42, 177, 186);
+        padding-left :100px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 10px;
+        font-size: 20px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 1250px;
+    }
+    
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:1920px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+            
+    }
+    .g{
+        border:90px rgb(247, 243, 243) double;
+        margin: 130px; font-size: 150px;
+         text-align: center;
+         color: yellow;
+         padding:500px;
+         padding-bottom:0px;
+         
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:120px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:120px 868px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .hh1{
+        style="text-align: center;font-size: 50px; color: aliceblue;"
+    }
+    
+    .gride{
+        padding:120px 470px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    .gride h1{
+        text-align: center;font-size: 50px;color: aliceblue; 
+    }
+    .gride li{
+        text-align: left;font-size: 20px;
+    }
+    .footerr{
+    
+        background-color: rgb(42, 150, 186);
+        padding:120px 918px;
+        display:inline-block;
+    }
+
+/* Extra small devices (phones, 375px and down) */
+@media only screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    .nav {
+    
+        margin: 10px;
+        background-color: rgb(42, 177, 186);
+        padding :10px;
+        
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 0px;
+        font-size: 10px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 50px;
+    }
+
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:460px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:70px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:60px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .gridd h1{
+        style="text-align: center;font-size: 10px;color: aliceblue;"
+    }
+    
+    .gride{
+        padding:70px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .g{
+        border: 10px rgb(247, 243, 243) double;
+        margin: 5px; font-size: 50px;
+         text-align: center;
+         color: yellow;
+         padding: 0px;
+         padding-right:0px;
+    }
+    .gride h1{
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+
+    }
+
+    .footerr{
+        padding:100px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+        color: black;
+        font-size:30px;
+    }
+
+    
+}
+
+/* Extra small devices (phones, 375px and up) */
+@media only screen and (min-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    .nav {
+    
+        margin: 10px;
+        background-color: rgb(42, 177, 186);
+        padding :10px;
+        
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 0px;
+        font-size: 10px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 50px;
+    }
+
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:460px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:70px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:60px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .gridd h1{
+        style="text-align: center;font-size: 10px;color: aliceblue;"
+    }
+    
+    .gride{
+        padding:70px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .g{
+        border: 10px rgb(247, 243, 243) double;
+        margin: 5px; font-size: 50px;
+         text-align: center;
+         color: yellow;
+         padding: 0px;
+         padding-right:0px;
+    }
+    .gride h1{
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+
+    }
+
+    .footerr{
+        padding:130px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+        color: black;
+        font-size:30px;
+    }
+
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        
+    }
+    .nav {
+    
+        margin: 4px;
+        background-color: rgb(42, 177, 186);
+        padding :10px;
+        
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 0px;
+        font-size: 10px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 350px;
+    }
+
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:640px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:10px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:60px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .gridd h1{
+        style="text-align: center;font-size: 10px;color: aliceblue;"
+    }
+    
+    .gride{
+        padding:159px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .g{
+        border: 10px rgb(247, 243, 243) double;
+        margin: 5px; font-size: 50px;
+         text-align: center;
+         color: yellow;
+         padding: 100px;
+    }
+    /*.gride h1{
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+
+    }*/
+    .footerr{
+        padding:80px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+}
+
+
+  /* Extra small devices (phones, 400px and up) */
+@media only screen and (min-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    .nav {
+    
+        margin: 10px;
+        background-color: rgb(42, 177, 186);
+        padding :10px;
+        
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 0px;
+        font-size: 10px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 150px;
+    }
+
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:560px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:110px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:80px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .gridd h1{
+        style="text-align: center;font-size: 10px;color: aliceblue;"
+    }
+    
+    .gride{
+        padding:80px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .g{
+        border: 10px rgb(247, 243, 243) double;
+        margin: 5px; font-size: 50px;
+         text-align: center;
+         color: yellow;
+         padding: 70px;
+    }
+    .gride h1{
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+
+    }
+
+    .footerr{
+        padding:155px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+        color: black;
+        font-size:30px;
+    }
+
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        
+    }
+    .nav {
+    
+        margin: 4px;
+        background-color: rgb(42, 177, 186);
+        padding :10px;
+        
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 0px;
+        font-size: 10px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 350px;
+    }
+
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:640px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:10px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:60px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .gridd h1{
+        style="text-align: center;font-size: 10px;color: aliceblue;"
+    }
+    
+    .gride{
+        padding:159px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .g{
+        border: 10px rgb(247, 243, 243) double;
+        margin: 5px; font-size: 50px;
+         text-align: center;
+         color: yellow;
+         padding: 100px;
+    }
+    /*.gride h1{
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+
+    }*/
+    .footerr{
+        padding:80px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    
+    .nav {
+        
+        margin: 0px;
+        background-color: rgb(42, 177, 186);
+        padding-left :100px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 10px;
+        font-size: 20px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 250px;
+    }
+    
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:770px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+            
+    }
+    .g{
+        border:30px rgb(247, 243, 243) double;
+        margin: 0px; font-size: 150px;
+         text-align: center;
+         color: yellow;
+         padding-right:0px;
+         padding-bottom:0px;
+         
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:120px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:120px 290px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .hh1{
+        style="text-align: center;font-size: 50px; color: aliceblue;"
+    }
+    
+    .gride{
+        padding:120px 290px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    .gride h1{
+        text-align: center;font-size: 50px;color: aliceblue; 
+    }
+    .gride li{
+        text-align: left;font-size: 20px;
+    }
+    .footerr{
+        padding:120px 322px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    
+    .nav {
+        
+        margin: 0px;
+        background-color: rgb(42, 177, 186);
+        padding-left :100px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 10px;
+        font-size: 20px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 450px;
+    }
+    
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:1025px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+            
+    }
+    .g{
+        border:30px rgb(247, 243, 243) double;
+        margin: 10px; font-size: 150px;
+         text-align: center;
+         color: yellow;
+         
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:120px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:120px 410px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .hh1{
+        style="text-align: center;font-size: 50px; color: aliceblue;"
+    }
+    
+    .gride{
+        padding:120px 350px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    .gride h1{
+        text-align: center;font-size: 50px;color: aliceblue; 
+    }
+    .gride li{
+        text-align: left;font-size: 20px;
+    }
+    .footerr{
+    
+        background-color: rgb(42, 150, 186);
+        padding:120px 450px;
+        display:inline-block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(42, 177, 186);
+        
+    }
+    
+    .nav {
+        
+        margin: 0px;
+        background-color: rgb(42, 177, 186);
+        padding-left :100px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 10px;
+        font-size: 20px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 650px;
+    }
+    
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:1460px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+            
+    }
+    .g{
+        border:30px rgb(247, 243, 243) double;
+        margin: 130px; font-size: 150px;
+         text-align: center;
+         color: yellow;
+         
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:120px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:120px 480px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .hh1{
+        style="text-align: center;font-size: 50px; color: aliceblue;"
+    }
+    
+    .gride{
+        padding:120px 470px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    .gride h1{
+        text-align: center;font-size: 50px;color: aliceblue; 
+    }
+    .gride li{
+        text-align: left;font-size: 20px;
+    }
+    .footerr{
+    
+        background-color: rgb(42, 150, 186);
+        padding:120px 541px;
+        display:inline-block;
+    }
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 2560px and up) */
+@media only screen and (min-width: 2560px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color:red;
+        
+    }
+    
+    .nav {
+        
+        margin: 0px;
+        background-color: rgb(42, 177, 186);
+        padding-left :100px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        
+        
+    
+        
+    }
+    
+    .nav a {
+        margin: 10px;
+        font-size: 20px;
+        
+        
+    }
+    #nav-b{
+        margin-left: 1850px;
+    }
+    
+    .gridb{
+        display: inline-block;
+        background-image: url(p1.jpg);
+        background-size:2860px;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 50s;
+       
+            
+    }
+    .g{
+        border:90px rgb(247, 243, 243) double;
+        margin: 130px; font-size: 150px;
+         text-align: center;
+         color: yellow;
+         padding:700px;
+         padding-bottom:0px;
+         
+    }
+    @keyframes example {
+        from {background-image: url(p2.jpg);}
+        to {background-image: url(p3.jpg);}
+    
+    
+    
+    }
+    
+    
+        
+    
+    .gridc{
+        padding:120px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+    }
+    
+    .gridd{
+        padding:120px 1060px;
+        background-color: rgb(42, 150, 186);
+        display:inline-block;
+    }
+    .hh1{
+        style="text-align: center;font-size: 50px; color: aliceblue;"
+    }
+    
+    .gride{
+        padding:120px 1170px;
+        background-color: rgb(42, 177, 186);
+        display:inline-block;
+        
+    }
+    .gride h1{
+        text-align: center;font-size: 50px;color: aliceblue; 
+    }
+    .gride li{
+        text-align: left;font-size: 20px;
+    }
+    .footerr{
+    
+        background-color: rgb(42, 150, 186);
+        padding:120px 1218px;
+        display:inline-block;
+    }
+}
